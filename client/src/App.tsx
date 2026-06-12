@@ -27,7 +27,7 @@ function MusicController() {
     dayMusic.volume = 0.5;
     setDaylightMusic(dayMusic);
     
-    const nightMusicAudio = new Audio(`${base}sounds/Elektronomia - Sky High - Elektronomia (128k).mp3`);
+    const nightMusicAudio = new Audio(`${base}sounds/Elektronomia - Sky High.mp3`);
     nightMusicAudio.loop = true;
     nightMusicAudio.volume = 0.5;
     setNightMusic(nightMusicAudio);
